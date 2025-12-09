@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://southport.renkoremapping.co.uk/sitemap.xml
