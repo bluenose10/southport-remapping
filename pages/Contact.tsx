@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                                 <input type="tel" name="phone" id="phone" value={formData.phone} onChange={handleChange} className={inputStyles} />
                             </div>
                             <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Your Message (Include car make, model, year)</label>
+                                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Your Message (Include car registration number, make, model, year)</label>
                                 <textarea name="message" id="message" rows={4} required value={formData.message} onChange={handleChange} className={inputStyles}></textarea>
                             </div>
                             <div>
